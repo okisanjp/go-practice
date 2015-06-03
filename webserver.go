@@ -8,7 +8,7 @@ import (
 func viewHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "はろわるど")
 	data := "ハロワルド"
-    fmt.Fprintf(w, data)
+	fmt.Fprintf(w, data)
 }
 
 func main() {
